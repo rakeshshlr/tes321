@@ -15,7 +15,7 @@ var gameOver, restart;
 localStorage.HighestScore = 0;
 
 function preload(){
-  trex_running =   loadImage("trex1.png","trex3.png","trex4.png");
+  trex_running =   loadAnimation("trex1.png","trex3.png","trex4.png");
   trex_collided = loadImage("trex_collided.png");
   
   groundImage = loadImage("ground2.png");
